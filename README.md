@@ -1,17 +1,17 @@
-#Kaushikq's Individual Project for CMPE202
+## Kaushikq's Individual Project for CMPE202
 
 Student ID: 0017426955
 
-##1. Main Objective
+## 1. Main Objective
 Answer: The primary challenge I aim to address is the validation of credit cards. This involves identifying the card type (e.g., Mastercard, Visa) by examining the card number and handling the relevant objects accordingly.
 
-##2. Secondary Objectives
+## 2. Secondary Objectives
 Answer: The secondary challenge involves deciding on suitable design patterns and accommodating future additions of credit classes for different card types.
 
-##3. Design Patterns Used
+## 3. Design Patterns Used
 Answer: Design Patterns Implemented: Chain of Responsibility, Strategy
 
-##Strategy Design Pattern:
+## Strategy Design Pattern:
 The Strategy Design Pattern allows dynamic behavior changes in the application at runtime. It supports multiple file formats by creating objects and strategies specific to each, adapting the application's behavior accordingly.
 
 I employed the Strategy Design Pattern to handle various file formats. Three interfaces - Reader, Writer, and CreditCardHandler - were designed to manage different aspects of file processing and credit card handling.
@@ -21,14 +21,14 @@ CreditCardHandler: Establishes a common structure for classes responsible for ch
 Writer: Provides a structure for classes responsible for writing data to different file formats, featuring a writeToFile method for handling the output format.
 This pattern enables runtime behavior swapping, adhering to the Open/Closed principle, and facilitates the addition of new strategies without affecting existing code.
 
-##Chain of Responsibility Design Pattern:
+## Chain of Responsibility Design Pattern:
 The Chain of Responsibility pattern handles requests by passing them through a chain of handlers. Each handler decides whether to process the request or pass it along the chain.
 
 After parsing XML, JSON, or CSV files, validation is needed to determine the credit card type. The Chain of Responsibility pattern validates the file against different credit card handlers, starting with the MasterCard handler and passing it along the chain as needed.
 
 A main credit card handler acts as a mediator, receiving the file and passing it to individual credit card handlers for validation. This approach centralizes and organizes the validation process.
 
-##4. Consequences of Using Patterns
+## 4. Consequences of Using Patterns
 Chain of Responsibility
 Advantages:
 Decouples the sender from recipients.
@@ -47,7 +47,7 @@ Large numbers of objects may become cumbersome.
 Class Diagram:
 [Not provided]
 
-How to Run the Project:
+## How to Run the Project:
 Run App.java
 
 Enter input file path: [Input file path with extension]
