@@ -3,13 +3,13 @@
 Student ID: 017426955
 
 ## 1. Main Objective
-Answer: The primary challenge I aim to address is the validation of credit cards. This involves identifying the card type (e.g., Mastercard, Visa) by examining the card number and handling the relevant objects accordingly.
+The primary challenge I aim to address is the validation of credit cards. This involves identifying the card type (e.g., Mastercard, Visa) by examining the card number and handling the relevant objects accordingly.
 
 ## 2. Secondary Objectives
-Answer: The secondary challenge involves deciding on suitable design patterns and accommodating future additions of credit classes for different card types.
+The secondary challenge involves deciding on suitable design patterns and accommodating future additions of credit classes for different card types.
 
 ## 3. Design Patterns Used
-Answer: Design Patterns Implemented: Chain of Responsibility, Strategy
+Design Patterns Implemented: Chain of Responsibility, Strategy
 
 ## Strategy Design Pattern:
 The Strategy Design Pattern allows dynamic behavior changes in the application at runtime. It supports multiple file formats by creating objects and strategies specific to each, adapting the application's behavior accordingly.
