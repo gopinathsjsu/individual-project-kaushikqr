@@ -1,6 +1,6 @@
 ## Kaushikq's Individual Project for CMPE202
 
-Student ID: 0017426955
+Student ID: 017426955
 
 ## 1. Main Objective
 Answer: The primary challenge I aim to address is the validation of credit cards. This involves identifying the card type (e.g., Mastercard, Visa) by examining the card number and handling the relevant objects accordingly.
