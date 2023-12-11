@@ -46,7 +46,8 @@ Users need to be aware of multiple strategies.
 Large numbers of objects may become cumbersome.
 
 ## Class Diagram:
-![UML](https://github.com/gopinathsjsu/individual-project-kaushikqr/assets/46593242/7292baff-7694-4389-a9e1-e2bfaedaf855)
+![UML DIAGRAM](https://github.com/gopinathsjsu/individual-project-kaushikqr/assets/46593242/ab5e2a7a-3e7f-4fe9-a04f-e1cea32836c5)
+
 
 ## How to Run the Project:
 Run App.java
