@@ -29,7 +29,7 @@ After parsing XML, JSON, or CSV files, validation is needed to determine the cre
 A main credit card handler acts as a mediator, receiving the file and passing it to individual credit card handlers for validation. This approach centralizes and organizes the validation process.
 
 ## 4. Consequences of Using Patterns
-Chain of Responsibility
+Chain of Responsibility \n
 Advantages:
 Decouples the sender from recipients.
 Clients interact with the chain through direct method calls.
