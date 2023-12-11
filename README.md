@@ -44,8 +44,9 @@ Promotes code reusability.
 Disadvantages:
 Users need to be aware of multiple strategies.
 Large numbers of objects may become cumbersome.
-Class Diagram:
-[Not provided]
+
+## Class Diagram:
+![UML](https://github.com/gopinathsjsu/individual-project-kaushikqr/assets/46593242/7292baff-7694-4389-a9e1-e2bfaedaf855)
 
 ## How to Run the Project:
 Run App.java
